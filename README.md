@@ -44,7 +44,7 @@ TCP    0.0.0.0:8080    LISTENING    1234
 TCP    0.0.0.0:3306    LISTENING    5678
 ...
 
-: find by 8080
+: find port 8080
 Found process on port 8080 with PID: 1234
 
 : kill 1234
@@ -82,7 +82,7 @@ TCP    0.0.0.0:3306    LISTENING    5678
 **Finding Process by Port**
 
 ```
-: find by 8080
+: find port 8080
 Found process on port 8080 with PID: 1234
 ```
 
